@@ -28,10 +28,10 @@ It allows users to customize the length and composition of the generated passwor
 
 ## Running the Application
  1. **Apply migrations**
-    ``` python manage.py migrate ```
+    ``` python3 manage.py migrate ```
  2. **Run the development server**
     - On Windows: ``` py manage.py runserver ```
-    - On Mac/Linux: ``` python manage.py runserver ```
+    - On Mac/Linux: ``` python3 manage.py runserver ```
  3. **Access the application**
     Open your web browser and go to `http://127.0.0.1:8000/`.
     
@@ -43,10 +43,3 @@ It allows users to customize the length and composition of the generated passwor
     - Inclusion of special characters
     - Inclusion of numbers
   3. Click "Generate Password" to receive a secure password.
-
-## License
-
-This project is based on ZappyCode. The modifications and additional styling are licensed under the MIT License. See the `LICENSE` file for more details.
-
-This project also uses Bootstrap, which is released under the MIT License. See the `LICENSE` file for more details.
-
